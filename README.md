@@ -17,21 +17,21 @@ Für die Simulation wurde eine kontrollierte Umgebung eingerichtet mit:
     Tools: Social Engineering Toolkit (SET) -> ist bereits auf Kali Linux vorinstalliert
 
 ### E-Mail-Adressen
- Angreifer‑Setup:
-    - Erstellung eines Gmail‑Kontos mit einer temporären Telefonnummer
-    - Generierung eines App‑Passworts für den SMTP‑Zugriff
-    - Wahl eines vertrauenswürdigen Absendernamens (z. B. „Support Google“)
+**Angreifer‑Setup:**
+- Erstellung eines Gmail‑Kontos mit einer temporären Telefonnummer
+- Generierung eines App‑Passworts für den SMTP‑Zugriff
+- Wahl eines vertrauenswürdigen Absendernamens (z. B. „Support Google“)
 
- Opfer-Setup:
-    - ProtonMail‑Konto
+**Opfer-Setup:**
+- ProtonMail‑Konto
       
 ### Python Skript für den E-Mail-Versand
 Für den Versand der E-Mail wurde ein Python-Skript erstellt, welches über den Gmail-SMTP-Server E-Mails versendet und einen HTML‑basierten Nachrichtentext enthält. 
 Das Skript übernimmt folgende Aufgaben:
-    - Aufbau einer TLS‑gesicherten Verbindung zu smtp.gmail.com
-    - Authentifizierung über das zuvor erstellte App‑Passwort
-    - Erstellung einer MIME‑Nachricht mit HTML‑Inhalt
-    - Setzen eines vertrauenserweckenden Absendernamens („Support Google“)
-    - Versand der Phishing-Nachricht
+- Aufbau einer TLS‑gesicherten Verbindung zu smtp.gmail.com
+- Authentifizierung über das zuvor erstellte App‑Passwort
+- Erstellung einer MIME‑Nachricht mit HTML‑Inhalt
+- Setzen eines vertrauenserweckenden Absendernamens („Support Google“)
+- Versand der Phishing-Nachricht
 
      
