@@ -2,7 +2,7 @@
 ## Beschreibung
 Dieses Projekt dokumentiert die Simulation eines Phishing-Angriffs unter Verwendung des Social Engineering Toolkits. Das primäre Ziel besteht darin, die Vorgehensweise eines Angreifers praxisnah zu simulieren und die damit verbundenen Risiken zu veranschaulichen. Basierend darauf sollen geeignete Gegenmaßnahmen zur Erkennung, Prävention und Sensibilisierung gegenüber Social-Engineering-Angriffen entwickelt werden.
 
-Der Fokus liegt hierbei auf:
+**Der Fokus liegt hierbei auf:**
     - Erstellung einer Phishing‑E-Mail
     - Aufbau einer Fake‑Login‑Seite unter Zuhilfenahme des Social Engineering Toolkits
     - Abgreifen von Zugangsdaten
