@@ -36,4 +36,4 @@ Das Skript übernimmt folgende Aufgaben:
 
 ## Durchführung
 Für das Einrichten der Phishing-Seite wird das Social Engineering Toolkit verwendet. Nach dem Öffnen im Terminal erscheint diese Begrüßungsseite: 
-!(SET/1.png)     
+![SET Startseite](SET/1.png)
