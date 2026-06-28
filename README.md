@@ -35,7 +35,11 @@ Das Skript übernimmt folgende Aufgaben:
 - Versand der Phishing-Nachricht
 
 ## Durchführung
-Für das Einrichten der Phishing-Seite wird das Social Engineering Toolkit verwendet. Nach dem Öffnen im Terminal erscheint diese Begrüßungsseite: 
+Für das Einrichten der Phishing-Seite wird das Social Engineering Toolkit verwendet. Nach dem Öffnen im Terminal erscheint diese Begrüßungsseite, bei der wir die zweite Option mit "Website Attack Vectors" auswählen: 
 
 ![SET Startseite](SET/1.png)
+
+Anschließend bietet uns die dritte Option mit "Credential Harvester Attack Method" die Möglichkeit zur Erstellung der Phishing-Seite:
+
+![SET Startseite](SET/2.png)
 
