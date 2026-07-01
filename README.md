@@ -53,7 +53,7 @@ Jetzt kann Google ausgewählt werden:
 
 Kali Linux startet daraufhin den Webserver auf Port 80, wodurch die gefälschte Seite nun unter unserer IP-Adresse zu finden ist. In der Realität nutzen Angreifer dafür Domains, die der originalen Website ähnlich sind. Mit dem Tool dnstwist lassen sich solche Domänennamen einfach finden. Zudem zeigt es an, welche davon bereits in Verwendung sind und welche noch verfügbar wären.
 
-![SET Bild5](SET/4.png)
+![SET Bild5](SET/5.png)
 
 Diese Domäne wird im bereits erstellten HTML-Skript als Link hinter dem Button „Jetzt anmelden“ hinterlegt und das Python-Skript ausgeführt. 
 
