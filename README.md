@@ -37,23 +37,23 @@ Das Skript übernimmt folgende Aufgaben:
 ## Durchführung
 Für das Einrichten der Phishing-Seite wird das Social Engineering Toolkit verwendet. Nach dem Öffnen im Terminal erscheint diese Begrüßungsseite, bei der zuerst die zweite Option mit "Website Attack Vectors" ausgewählt wird: 
 
-![SET Bild1](SET/1.png)
+![SET Bild1](Bilder/1.png)
 
 Anschließend bietet die dritte Option mit "Credential Harvester Attack Method" die Möglichkeit zur Erstellung der Phishing-Seite:
 
-![SET Bild2](SET/2.png)
+![SET Bild2](Bilder/2.png)
 
 Nun existiert die Wahl zwischen Web Templates, Site Cloner und Custom Import. Weil Google schon als Template vordefiniert ist, fällt die Wahl auf 1:
 
-![SET Bild3](SET/3.png)
+![SET Bild3](Bilder/3.png)
 
 Jetzt kann Google ausgewählt werden:
 
-![SET Bild4](SET/4.png)
+![SET Bild4](Bilder/4.png)
 
 Kali Linux startet daraufhin den Webserver auf Port 80, wodurch die gefälschte Seite nun unter unserer IP-Adresse zu finden ist. In der Realität nutzen Angreifer dafür Domains, die der originalen Website ähnlich sind. Mit dem Tool dnstwist lassen sich solche Domänennamen einfach finden. Zudem zeigt es an, welche davon bereits in Verwendung sind und welche noch verfügbar wären.
 
-![SET Bild5](SET/5.png)
+![SET Bild5](Bilder/5.png)
 
 Diese Domäne wird im bereits erstellten HTML-Skript als Link hinter dem Button „Jetzt anmelden“ hinterlegt und das Python-Skript ausgeführt. 
 
