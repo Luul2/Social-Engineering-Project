@@ -70,7 +70,7 @@ Wird die E-Mail geöffnet, erscheint eine dringlich formulierte Nachricht mit fo
 
 ![SET Bild5](Bilder/6.png)
 
-Da die E-Mail auf den ersten Blick vertrauenswürdig wirkt und die Zielperson ihr Konto überprüfen möchte, klickt sie auf den Button und gelangt auf folgende Website:
+Da die E-Mail auf den ersten Blick vertrauenswürdig wirkt und die Zielperson ihr Konto überprüfen möchte, klickt sie auf den Button und gelangt auf folgende Webseite:
 
 ![SET Bild5](Bilder/7.png)
 
@@ -78,7 +78,7 @@ Wenn das Opfer die Anmeldedaten eingibt und sich anmeldet, werden diese von dem 
 
 ![SET Bild5](Bilder/8.png)
 
-Jetzt ist es dem Angreifer möglich, sich in Gmail anzumelden, sofern keine 2FA aktiviert wurde. Wobei hier erwähnenswert ist, dass es heutzutage auch Tools wie Evilginx2 gibt, die diesen erweiterten Sicherheitsmechanismus umgehen können. Bei diesem wird ein Reverse-Proxy-Server benötigt, welcher zwischen dem Opfer und der echten Seite die Daten abfängt, also basierend auf der Man-in-the-Middle Technik. Neben den Anmeldedaten und den 2FA-Code kann der Angreifer die Session-Cookies des Opfers abrufen, wodurch ein späteres anmelden in das Konto ermöglicht wird, ohne den 2FA-Code erneut eingeben zu müssen. Die Gültigkeit dieser Cookies können zeitlich variieren.
+Jetzt ist es dem Angreifer möglich, sich in Gmail anzumelden, sofern keine 2FA aktiviert wurde. Wobei hier erwähnenswert ist, dass es heutzutage auch Tools wie Evilginx2 gibt, die diesen erweiterten Sicherheitsmechanismus umgehen können.
 
 ## Folgen
 Phishing-Angriffe können erhebliche Folgen für die Opfer haben. Im vorliegenden Beispiel führt der Angriff insbesondere zu Identitätsdiebstahl und dem Missbrauch personenbezogener Daten. Da E-Mail-Konten häufig mit zahlreichen weiteren Diensten verknüpft sind, können Angreifer durch das Zurücksetzen von Passwörtern auch Zugriff auf soziale Netzwerke, Online-Shops oder Finanzkonten erlangen. Darüber hinaus können die erlangten Daten zur Erstellung betrügerischer Konten oder für weitere Straftaten genutzt werden.
