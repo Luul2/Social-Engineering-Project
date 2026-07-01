@@ -11,8 +11,8 @@ Dieses Projekt dokumentiert die Simulation eines Phishing-Angriffs unter Verwend
 ## Inhaltsverzeichnis
 - [Vorbereitung](#vorbereitung)
 - [Testumgebung](#testumgebung)
-- [E-Mail-Adressen](#e-mail-adressen)
-- [Python-Skript für den Mailversand](#python-skript-für-den-mailversand)
+    - [E-Mail-Adressen](#e-mail-adressen)
+    - [Python-Skript für den Mailversand](#python-skript-für-den-mailversand)
 - [Durchführung](#durchführung)
 - [Folgen](#folgen)
 - [Maßnahmen](#maßnahmen)
