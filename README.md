@@ -51,11 +51,32 @@ Jetzt kann Google ausgewählt werden:
 
 ![SET Bild4](Bilder/4.png)
 
-Kali Linux startet daraufhin den Webserver auf Port 80, wodurch die gefälschte Seite nun unter unserer IP-Adresse zu finden ist. In der Realität nutzen Angreifer dafür Domains, die der originalen Website ähnlich sind. Mit dem Tool dnstwist lassen sich solche Domänennamen einfach finden. Zudem zeigt es an, welche davon bereits in Verwendung sind und welche noch verfügbar wären.
+Kali Linux startet daraufhin den Webserver auf Port 80, wodurch die gefälschte Seite nun unter unserer IP-Adresse zu finden ist. In der Realität nutzen Angreifer dafür Domains, die der originalen Website ähnlich sind. Mit dem Tool dnstwist lassen sich solche Domänennamen einfach finden. Zudem zeigt es an, welche davon bereits in Verwendung sind und welche noch verfügbar wären. In dem bereits erstellten HTML-Skript wird der Link zu der Domäne hinter dem Button „Jetzt anmelden“ versteckt. Sobald das Programm ausgeführt wird, wird die E-Mail versendet.
+
+Im Posteingang der Zielperson erscheint die Phishing-E-Mail wie folgt:
 
 ![SET Bild5](Bilder/5.png)
 
-Diese Domäne wird im bereits erstellten HTML-Skript als Link hinter dem Button „Jetzt anmelden“ hinterlegt und das Python-Skript ausgeführt. 
+Wird die E-Mail geöffnet, erscheint eine dringlich formulierte Nachricht mit folgendem Inhalt:
 
+![SET Bild5](Bilder/6.png)
 
+Da die E-Mail auf den ersten Blick vertrauenswürdig wirkt und die Zielperson ihr Konto überprüfen möchte, klickt sie auf den Button und gelangt auf folgende Website:
 
+![SET Bild5](Bilder/7.png)
+
+Wenn das Opfer die Anmeldedaten eingibt und sich anmeldet, werden diese von dem Social Engineering Toolkit abgegriffen:
+
+![SET Bild5](Bilder/8.png)
+
+Jetzt ist es dem Angreifer möglich, sich in Gmail anzumelden, sofern keine 2FA aktiviert wurde. Wobei hier erwähnenswert ist, dass es heutzutage auch Tools wie Evilginx2 gibt, die diesen erweiterten Sicherheitsmechanismus umgehen können. Bei diesem wird ein Reverse-Proxy-Server benötigt, welcher zwischen dem Opfer und der echten Seite die Daten abfängt, also basierend auf der Man-in-the-Middle Technik. Neben den Anmeldedaten und den 2FA-Code kann der Angreifer die Session-Cookies des Opfers abrufen, wodurch ein späteres anmelden in das Konto ermöglicht wird, ohne den 2FA-Code erneut eingeben zu müssen. Die Gültigkeit dieser Cookies können zeitlich variieren.
+
+**Folgen
+Phishing-Angriffe können erhebliche Folgen für die Opfer haben. Im vorliegenden Beispiel führt der Angriff insbesondere zu Identitätsdiebstahl und dem Missbrauch personenbezogener Daten. Da E-Mail-Konten häufig mit zahlreichen weiteren Diensten verknüpft sind, können Angreifer durch das Zurücksetzen von Passwörtern auch Zugriff auf soziale Netzwerke, Online-Shops oder Finanzkonten erlangen. Darüber hinaus können die erlangten Daten zur Erstellung betrügerischer Konten oder für weitere Straftaten genutzt werden.
+
+Weitere mögliche Folgen sind:
+-finanzielle Verluste
+-Rufschädigung
+-psychische Belastungen 
+-Datenschutzverletzungen 
+-Ausfälle und Störungen
