@@ -83,9 +83,9 @@ Jetzt ist es dem Angreifer möglich, sich in Gmail anzumelden, sofern keine 2FA 
 ## Folgen
 Phishing-Angriffe können erhebliche Folgen für die Opfer haben. Im vorliegenden Beispiel führt der Angriff insbesondere zu Identitätsdiebstahl und dem Missbrauch personenbezogener Daten. Da E-Mail-Konten häufig mit zahlreichen weiteren Diensten verknüpft sind, können Angreifer durch das Zurücksetzen von Passwörtern auch Zugriff auf soziale Netzwerke, Online-Shops oder Finanzkonten erlangen. Darüber hinaus können die erlangten Daten zur Erstellung betrügerischer Konten oder für weitere Straftaten genutzt werden.
 
-**Weitere mögliche Folgen sind:**
--finanzielle Verluste
--Rufschädigung
--psychische Belastungen 
--Datenschutzverletzungen 
--Ausfälle und Störungen
+Weitere mögliche Folgen sind:
+- finanzielle Verluste
+- Rufschädigung
+- psychische Belastungen 
+- Datenschutzverletzungen 
+- Ausfälle und Störungen
