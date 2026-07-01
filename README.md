@@ -8,6 +8,15 @@ Dieses Projekt dokumentiert die Simulation eines Phishing-Angriffs unter Verwend
 - Abgreifen von Zugangsdaten
 - Analyse der Auswirkungen, sowie der Ableitung von Sicherheitsmaßnahmen
 
+## Inhaltsverzeichnis
+- [Vorbereitung](#vorbereitung)
+- [Testumgebung](#testumgebung)
+- [E-Mail-Adressen](#e-mail-adressen)
+- [Python-Skript für den Mailversand](#python-skript-für-den-mailversand)
+- [Durchführung](#durchführung)
+- [Folgen](#folgen)
+- [Maßnahmen](#maßnahmen)
+
 ## Vorbereitung
 ### Testumgebung
 Für die Simulation wurde eine kontrollierte Umgebung eingerichtet mit:
@@ -25,7 +34,7 @@ Für die Simulation wurde eine kontrollierte Umgebung eingerichtet mit:
 **Opfer-Setup:**
 - ProtonMail‑Konto
       
-### Python Skript für den E-Mail-Versand
+### Python-Skript für den Mailversand
 Für den Versand der E-Mail wurde ein Python-Skript erstellt, welches über den Gmail-SMTP-Server E-Mails versendet und einen HTML‑basierten Nachrichtentext enthält. 
 Das Skript übernimmt folgende Aufgaben:
 - Aufbau einer TLS‑gesicherten Verbindung zu smtp.gmail.com
@@ -71,10 +80,10 @@ Wenn das Opfer die Anmeldedaten eingibt und sich anmeldet, werden diese von dem 
 
 Jetzt ist es dem Angreifer möglich, sich in Gmail anzumelden, sofern keine 2FA aktiviert wurde. Wobei hier erwähnenswert ist, dass es heutzutage auch Tools wie Evilginx2 gibt, die diesen erweiterten Sicherheitsmechanismus umgehen können. Bei diesem wird ein Reverse-Proxy-Server benötigt, welcher zwischen dem Opfer und der echten Seite die Daten abfängt, also basierend auf der Man-in-the-Middle Technik. Neben den Anmeldedaten und den 2FA-Code kann der Angreifer die Session-Cookies des Opfers abrufen, wodurch ein späteres anmelden in das Konto ermöglicht wird, ohne den 2FA-Code erneut eingeben zu müssen. Die Gültigkeit dieser Cookies können zeitlich variieren.
 
-**Folgen
+## Folgen
 Phishing-Angriffe können erhebliche Folgen für die Opfer haben. Im vorliegenden Beispiel führt der Angriff insbesondere zu Identitätsdiebstahl und dem Missbrauch personenbezogener Daten. Da E-Mail-Konten häufig mit zahlreichen weiteren Diensten verknüpft sind, können Angreifer durch das Zurücksetzen von Passwörtern auch Zugriff auf soziale Netzwerke, Online-Shops oder Finanzkonten erlangen. Darüber hinaus können die erlangten Daten zur Erstellung betrügerischer Konten oder für weitere Straftaten genutzt werden.
 
-Weitere mögliche Folgen sind:
+**Weitere mögliche Folgen sind:**
 -finanzielle Verluste
 -Rufschädigung
 -psychische Belastungen 
